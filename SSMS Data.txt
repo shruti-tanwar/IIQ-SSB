@@ -31,7 +31,7 @@ COMS2
 Gleo3_E2E_Release
 ILSE Warehousing and Distribution (WND)
 Interface Monitoring System (IMS)
-Macy’s Merchandising Group (MMG) / HKP Commercial Invoice Process (HKP)
+Macyâ€™s Merchandising Group (MMG) / HKP Commercial Invoice Process (HKP)
 Macy's Merchandising Group (MMG) First Sale (FS)
 Master Data Management (MDM)
 NAM Weight Limit Tool
@@ -48,9 +48,4 @@ https://training.cyberark.com/
 9966270707
 9115715856
 
-Official MS
-Udemy Alan Rodriguez ***
-Cloud Academy Subscription (ms esi link)
-If you have any questions or comments, please contact US Cyber Cloud 
-uscybercloudmailbox@deloitte.com
-usrfaprojectmaia@deloitte.com
+
