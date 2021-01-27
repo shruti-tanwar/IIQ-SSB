@@ -1,0 +1,151 @@
+1-888-449-8257 
+
+
+WM 
+https://deloittenet.deloitte.com/PC/PracticeComm/regions/India/SE/Pages/CE_program_calendar.aspx
+
+VDI Creds
+empid: 93102677
+email id: stanw
+
+ar1@wm.com
+pass: green123
+RDP Pass: Waste*123!
+
+DEV SANDBOX CREDS
+username: addev\stanwar
+password: Waste*123!
+
+SALESFORCE
+username: sailpointidentityiq@wm.com.qa3
+pass:  1d3nt1ty1q3
+
+SVN CREDS:
+username: stanwar1
+pass: Waste123
+
+
+adcsailpointd04.addev.com:8080/identityiq/login.jsf
+
+https://university.sailpoint.com/courses
+
+import java.util.Scanner;
+public class test {
+	public static void main(String arg[]) {
+		int indexs=0;
+		int lastindexs=0;
+		String finalOuValue ="";
+		String ouVal="";
+		
+		System.out.println("Enter the value: ");
+		Scanner sc = new Scanner(System.in);
+	    String value = sc.nextLine();
+	  
+	     indexs = value.indexOf(",DC=");
+	     lastindexs = value.lastIndexOf(",OU=")+4;
+	     System.out.println("lastindexs: " + lastindexs);
+	     System.out.println("indexs: " + indexs);
+	     finalOuValue = value.substring(lastindexs, indexs);
+	     System.out.println("finalOuValue: " + finalOuValue);
+	    
+		//Scanner sc = new Scanner(System.in);
+		//System.out.println(sc.nextLine());
+	    }
+}
+
+https://deloittenet.deloitte.com/talentondemand/benefits/usi/leaves/pages/paidtimeoffprogram.aspx?wt.mc_id=comm-tau-nltr-others-4-120220
+
+
+sp target = 
+set SPTARGET=%ENVIRONEMENT%
+build clean war
+
+WM Approval Owner Rule
+WM Approval Owner Rule Library
+
+QA IIQ Creds:
+93010742
+waste123!
+
+
+https://teams.microsoft.com/l/file/F6833FCD-82AA-48CB-B974-EF22420209FB?tenantId=36da45f1-dd2c-4d1f-af13-5abe46b99921&fileType=xlsx&objectUrl=https%3A%2F%2Famedeloitte.sharepoint.com%2Fsites%2FUSUSIAdvisory-WasteManagementSailPointImplementation%2FShared%20Documents%2FGeneral%2FWM%20Application%20Test%20Cases%20Worksheets%2FSAR_Forms_QA_Testing_Plan_11302020.xlsx&baseUrl=https%3A%2F%2Famedeloitte.sharepoint.com%2Fsites%2FUSUSIAdvisory-WasteManagementSailPointImplementation&serviceName=teams&threadId=19:2f6455083c8a4a7aaec7477b9390fc33@thread.skype&groupId=d98c4cd7-2502-4eda-989d-db31386710f2
+
+
+Spotfire:
+Approval Matrix: If owner is the approver which level is skipped? bcz it went to the manager first n then no one - jdavis 2 for id used 000076 - felix bonnet ASK
+
+Also add REPLACE action in spotfire
+
+POWER BI 
+1. When manager is requestor: manager 237691 paul gregorich user 000121 Frank brockman --- ok 
+2. When WG is requester - went to manager first then vanished
+
+wg - 076587 Avelina Ortega
+
+
+NETEZZA
+1. Create new user - approval mismatch 000324 Denise Skaggs Michael smith manager
+create new user>cpv>ebiz>business analyst
+
+2. Remove access - not successfull, even for level 1
+
+3. Change access level - unsuccessful even for level 1
+uname: ADQA\SVC_IDENTITYIQ
+pass: password2012
+
+000379 002192 manager
+https://ess.excelityglobal.com/ProcessServletSSO
+
+1. backup dev
+2. Config_WM_UiConfig to import in dev
+3. Export step 2 file n compare with pro file
+4. write changes in excel
+5. then import the backup file back in dev
+
+
+sailpointidentityiq@wm.com.stevenew
+sailpointqa@wm.com.qa3
+
+************************************************************************************************************************************************************
+SVN GIT MIGRATION
+************************************************************************************************************************************************************
+
+git svn clone https://USHYDSHTANWAR6.us.deloitte.com:8443/svn/svn_tortoise/ --prefix=svn/ --no-metadata --authors-file "authors-transform.txt" --stdlayout C:/Users/shtanwar/Desktop/Development/Svn_to_git
+
+file:///C:/Users/shtanwar/Desktop/Development/svn_tortoise
+
+
+POWERSHELL CMD TO CREATE AUTHORS FILE: 
+svn.exe log --quiet | ? { $_ -notlike '-*' } | % { "{0} = {0} <{0}>" -f ($_ -split ' \| ')[1] } | Select-Object -Unique | Out-File 'authors-transform.txt' Encoding 
+
+8443
+
+sc create svnserver binpath= "C:\Program Files\TortoiseSVN\bin\svnserve.exe" --service -r "C:\Users\shtanwar\Desktop\Development\Test" displayname= "Subversion" depend= Tcpip start= auto                                  **********to start svn service
+
+
+https://tortoisesvn.net/docs/nightly/TortoiseSVN_en/tsvn-repository.html
+
+svn ls https://USHYDSHTANWAR6.us.deloitte.com:8443/svn/svn_tortoise/  *******opens the directory in cmd
+https://USHYDSHTANWAR6.us.deloitte.com:8443/svn/svn_tortoise/
+
+The git svn command shows error in the execution of the program code and hence successful execution fails
+
+git svn clone -s https://USHYDSHTANWAR6.us.deloitte.com:8443/svn/svn_tortoise/ C:\Users\shtanwar\Desktop\Development\Svn_to_git
+
+SVN - https://adcsailpointq06.adqa.com/svn/wmPhase2/wm-IdentityIQ
+7999865978
+
+EDC OU Groups:
+
+ROECADMIN
+ROECOPERATOR
+ROECUSER
+
+
+Servers:
+LDCSAILPOINTD01.ADDEV.COM
+LDCSAILPOINTD02.ADDEV.COM
+
+WIN-9ODPMCJR4N2\Administrator
+
+https://www.udemy.com/course/practice-exams-aws-certified-cloud-practitioner/?couponCode=JAN_21_GET_STARTED
